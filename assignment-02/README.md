@@ -9,3 +9,8 @@ I am a paragraph. I may be several sentences long, and you'll have to scroll to 
 [Responses](./responses.txt)
 
 ![Screenshot](./images/assignment-02-screenshot.png)
+
+Things I learned or hope to learn:
+- Navigating the Atom user interface
+- How to preview .md files in Atom
+- IPv6
