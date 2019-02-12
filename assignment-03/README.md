@@ -4,4 +4,5 @@
 
 2. A markup language is used to create the content, while other languages are used to style or manipulate the content. The most common markup language is html.
 
-3. ![Screenshot of my first webpage](./images/assignment03screenshot.png)
+3.
+![Screenshot of my first webpage](./images/assignment03screenshot.png)
