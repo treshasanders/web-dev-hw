@@ -1,1 +1,11 @@
 My Responses:
+
+1. Data can be sent through fiber optic cables, meaning data is transferred in the form of light.
+
+2. An IP address can request to find another IP address. The DNS would handle this by communicating with other DNS's to locate that IP and return it to the IP address that requested it. 
+
+3. Cookies are small packets of data that allow servers to store information that identifies users.
+
+4. The three basic parts of a URL are the protocol, domain, and path. The protocol identifies how browser is communicating with the server, the domain is the main location of files within the site. The path is what navigates through the files in order to return the exact page intended. 
+
+
