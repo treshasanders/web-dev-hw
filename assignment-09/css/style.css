@@ -16,14 +16,12 @@ body {
 #pink {
   background-color: #f6b1c4;
   position: absolute;
-  top: 0;
   left: 0;
 }
 #yellow {
   background-color: #fdf473;
   position: absolute;
-  bottom: 0;
-  left: 0;
+  right: 0;
 }
 
 /* Text */
