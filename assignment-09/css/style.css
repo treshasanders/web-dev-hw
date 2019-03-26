@@ -27,12 +27,14 @@ body {
 /* Text */
 .text-container {
   background-color: #ffffff);
-  width: 400px;
+  width: 30%;
   position: absolute;
-
+}
+#fanny {
   top: 50%;
-  left: 50%;
-     -ms-transform: translate(-50%, -50%); /* IE 9 */
- -webkit-transform: translate(-50%, -50%); /* Safari 3-8 */
-         transform: translate(-50%, -50%);
+  left: 10%;
+}
+#ski {
+  top: 50%;
+  left: 60%;
 }
