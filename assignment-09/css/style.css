@@ -27,14 +27,14 @@ body {
 /* Text */
 .text-container {
   background-color: #ffffff;
-  width: 30%;
+  width: 40%;
   position: absolute;
 }
 #fanny {
   top: 20%;
-  left: 10%;
+  left: 5%;
 }
 #ski {
   top: 20%;
-  right: 10%;
+  right: 5%;
 }
