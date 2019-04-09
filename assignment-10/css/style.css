@@ -1,0 +1,46 @@
+/* Page-Wide */
+@font-face {
+  font-family:'JMH Typewriter';
+  src:url('../fonts/JMH Typewriter.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Mermaid1001';
+  src:url('../fonts/Mermaid1001.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Queen of Clubs';
+  src:url('../fonts/Queen of Clubs.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html {
+  font-family: 'JMH Typewriter';
+  font-size:12pt;
+  letter-spacing: normal;
+  padding: 20px 20px 20px 100px;
+}
+
+.footer, .header {
+  background-color: #77796d;
+  padding-left: 1.1em;
+}
+
+h1 {
+  font-family: 'Queen of Clubs';
+  font-size: 20px;
+  color: #c7a455;
+}
+
+/* Text */
+.text-container {
+  background-color: #fefadc;
+  width: 70%;
+  position: absolute;
+}
