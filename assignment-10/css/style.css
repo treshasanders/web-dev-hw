@@ -20,13 +20,6 @@
   font-style: normal;
 }
 
-html {
-  font-family: 'JMH Typewriter';
-  font-size:12pt;
-  letter-spacing: normal;
-  padding: 20px 20px 20px 100px;
-}
-
 .footer, .header {
   background-color: #77796d;
   padding-left: 1.1em;
@@ -39,6 +32,16 @@ h1 {
   text-align: center;
 }
 
+h2, h3 {
+  font-family: 'Queen of Clubs';
+  color: #1e3640;
+  text-align: center;
+}
+pre {
+  font-family: 'JMH Typewriter';
+  font-size: 12px;
+  color: #1e3640;
+}
 /* Text */
 .text-container {
   background-color: #fefadc;
