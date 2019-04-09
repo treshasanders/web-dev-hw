@@ -33,7 +33,7 @@ h1 {
 }
 
 h2, h3 {
-  font-family: 'Queen of Clubs';
+  font-family: 'Mermaid1001';
   color: #1e3640;
   text-align: center;
 }
@@ -52,6 +52,7 @@ pre {
 
 a:link{
   color: #c7a455);
+  text-align: center;
 }
 
 a:hover{

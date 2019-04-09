@@ -1,7 +1,7 @@
 # README.md
 
-1. Briefly share your design process for this assignment. What fonts did you choose, and why?
+1. The beginning of Killing Eve has this really bold font that was the first thing that jumped to my mind when I saw the assignment was Typography. It's a great show and I wanted to play with the fonts to fit with the show. I  chose a typewriter font (JMH Typewriter) because it's a script. It just fit. I searched for a long time to find a font that fit the one used for Killing Eve's title sequence. It was obviously a custom font but I found a close one (Queen of Clubs). And then I wanted a really nice sans serif to use for text between the main heading and the script text (Mermaid1001). I used colors used for title sequences of two different episodes of Killing Eve that I think worked aesthetically.
 
-2. What is the difference between a system font, web font, and web-safe font? What is the importance of having fallback fonts or a font stack?
+2. What is the difference between a system font, web font, and web-safe font? What is the importance of having fallback fonts or a font stack? A system font is a font available on an individual computer. A web font is adjusted to display on a browser for a particular website. Web fonts may be downloaded from the website's server, or stored in another, such as Google hosted fonts. Web-safe fonts include a short list of fonts that all browsers recognize, such as Arial and Times New Roman. It is important to use a backup font, in case the browser isn't able to download the web-font selected in a css document.
 
-3. Free Response: Summarize your work cycle for this assignment.
+3. I had a lot of fun. I can get really into fonts. Choosing my fonts was the aspect of this assignment that took the longest for me. The rest just fell into place. 
