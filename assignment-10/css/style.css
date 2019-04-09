@@ -63,5 +63,10 @@ a:visited{
 }
 
 .link {
+  font-family: 'Mermaid1001';
   color: #fefadc;
+}
+
+.special {
+  text-decoration: underline;
 }
