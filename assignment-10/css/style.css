@@ -34,8 +34,9 @@ html {
 
 h1 {
   font-family: 'Queen of Clubs';
-  font-size: 20px;
+  font-size: 120px;
   color: #c7a455;
+  text-align: center;
 }
 
 /* Text */
