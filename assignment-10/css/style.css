@@ -37,14 +37,31 @@ h2, h3 {
   color: #1e3640;
   text-align: center;
 }
+
 pre {
   font-family: 'JMH Typewriter';
   font-size: 12px;
   color: #1e3640;
 }
-/* Text */
+
+a:link{
+  color: #c7a455);
+}
+
+a:hover{
+  color: #ad8839;
+}
+
+a:visited{
+  color: #f1abb7;
+}
+
 .text-container {
   background-color: #fefadc;
   width: 70%;
-  position: absolute;
+  position: relative;
+}
+
+.link {
+  color: #fefadc;
 }
