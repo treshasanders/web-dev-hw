@@ -1,4 +1,4 @@
-#README.md
+# README.md
 
 1. Margins set the distance between content and the browser window. Padding sets the space between content and the margin. Borders surround content elements.
 
