@@ -34,25 +34,25 @@
   height: 48%;
 }
 #red {
-  background-color: ##BD4A26;
+  background-color: #BD4A26;
   position: absolute;
   top: 0;
   left: 0;
 }
 #blue {
-  background-color: ##2A3F61;
+  background-color: #2A3F61;
   position: absolute;
   top: 0;
   right: 0;
 }
-#brown {
-  background-color: ##654152;
+#purple {
+  background-color: #72497b;
   position: absolute;
   bottom: 0;
   left: 0;
 }
 #pink {
-  background-color: ##E28BB9;
+  background-color: #E28BB9;
   position: absolute;
   bottom: 0;
   right: 0;
