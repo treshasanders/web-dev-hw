@@ -58,6 +58,10 @@
   right: 0;
 }
 
+img~.less {
+  opacity: 0.7;
+}
+
 .footer, .header {
   background-color: #77796d;
   padding-left: 1.1em;
