@@ -2,7 +2,7 @@
 .square {
   width: 50%;
   height: 50%;
-  border: 2px dashed white;
+  border: 5px solid white;
 
 }
 #red {
@@ -36,12 +36,6 @@ img~.less {
   height: 100%;
 }
 
-.text-container {
-  background-color: #fefadc;
-  width: 70%;
-  position: relative;
-}
-
 /* Text */
 .text-container {
   background-color: rgba(255, 255, 255, 0.8);
@@ -49,6 +43,9 @@ img~.less {
   position: absolute;
   top: 50%;
   left: 50%;
+     -ms-transform: translate(-50%, -50%);
+ -webkit-transform: translate(-50%, -50%);
+         transform: translate(-50%, -50%);
 }
 h1+p {
   background-color: black;
