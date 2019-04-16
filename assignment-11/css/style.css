@@ -20,18 +20,12 @@
   font-style: normal;
 }
 
-.container {
-  background-color: black;
-  width: 1048px;
-  margin: auto;
-  padding: 20px;
-  border: 10px dashed yellow;
-}
-
 /* Colored  Panels */
 .square {
-  width: 48%;
-  height: 48%;
+  width: 50%;
+  height: 50%;
+  border: 2px dashed white;
+
 }
 #red {
   background-color: #BD4A26;
@@ -59,14 +53,9 @@
 }
 
 img~.less {
-  opacity: 0.5;
+  opacity: 0.4;
   width: 100%;
   height: 100%;
-}
-
-.footer, .header {
-  background-color: #77796d;
-  padding-left: 1.1em;
 }
 
 h1 {
