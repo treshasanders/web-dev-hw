@@ -1,0 +1,113 @@
+/* Page-Wide */
+@font-face {
+  font-family:'JMH Typewriter';
+  src:url('../fonts/JMH Typewriter.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Mermaid1001';
+  src:url('../fonts/Mermaid1001.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Queen of Clubs';
+  src:url('../fonts/Queen of Clubs.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.container {
+  background-color: black;
+  width: 1048px;
+  margin: auto;
+  padding: 20px;
+  border: 10px dashed yellow;
+}
+
+/* Colored  Panels */
+.square {
+  width: 48%;
+  height: 48%;
+}
+#red {
+  background-color: ##BD4A26;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#blue {
+  background-color: ##2A3F61;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+#brown {
+  background-color: ##654152;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+#pink {
+  background-color: ##E28BB9;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.footer, .header {
+  background-color: #77796d;
+  padding-left: 1.1em;
+}
+
+h1 {
+  font-family: 'Queen of Clubs';
+  font-size: 120px;
+  color: #c7a455;
+  text-align: center;
+}
+
+h2, h3 {
+  font-family: 'Mermaid1001';
+  color: #1e3640;
+  text-align: center;
+}
+
+pre {
+  font-family: 'JMH Typewriter';
+  font-size: 12px;
+  color: #1e3640;
+  display: inline-block;
+  text-align: left;
+}
+
+a:link{
+  color: #c7a455);
+  text-align: center;
+}
+
+a:hover{
+  color: #ad8839;
+}
+
+a:visited{
+  color: #f1abb7;
+}
+
+.text-container {
+  background-color: #fefadc;
+  width: 70%;
+  position: relative;
+}
+
+.link {
+  font-family: 'Mermaid1001';
+  color: #fefadc;
+}
+
+.special {
+  text-decoration: underline;
+}
