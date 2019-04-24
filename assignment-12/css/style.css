@@ -36,6 +36,7 @@ header {
 }
 .dropdown:hover .drop-content {
   display: block;
+  color: white;
 }
 .drop-item {
   display: block;
