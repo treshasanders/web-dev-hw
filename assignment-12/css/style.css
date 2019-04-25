@@ -33,6 +33,7 @@ header {
   margin: 0.5em 0 0 -1em;
   background-color: #B3A42E;
   width: 8em;
+  z-index: 3;
 }
 .dropdown a {
   color: white;
