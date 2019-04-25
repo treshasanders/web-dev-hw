@@ -10,6 +10,13 @@ header {
   text-align: center;
   font-size: 1em;
 }
+#site-title {
+  color: white;
+
+}
+#site-slogan {
+  color: white;
+}
 .nav {
   display: inline-block;
   text-align: center;
