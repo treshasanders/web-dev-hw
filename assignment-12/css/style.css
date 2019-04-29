@@ -60,6 +60,13 @@ header {
 .drop-item:hover, .drop-item:hover a {
   background-color: #BAA8FF;
 }
+.container {
+  background-color: white;
+  width: 1048px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid black;
+}
 .footer {
   position: fixed;
   left: 0;
