@@ -11,6 +11,10 @@ header {
   text-align: center;
   font-size: 1em;
 }
+h2 {
+  margin-top: 2px;
+  margin-bottom: 0px;
+}
 #site-title {
   color: black;
   font-weight: bold;
