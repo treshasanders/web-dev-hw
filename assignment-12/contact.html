@@ -59,8 +59,9 @@
     <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 
     <!-- Main Content -->
-    <main><!-- Contact Form -->
-      <form action="http://www.example.com/login.php method="post" id="Contact" class="basic-forms">
+    <main>
+      <!-- Contact Form -->
+      <form action="http://www.example.com/login.php" method="post" id="Contact" class="basic-forms">
         <p>NAME</p>
         <input type="text" name="name" id="name" autofocus/>
         <p>EMAIL</p>
@@ -72,13 +73,12 @@
         <br />
         <input type="radio" name="bulkorders" value="bulkorders"/> BULK ORDERS
         <br />
-        <input type="radio" name="juicecleanses" value="juicecleanses"/> JUICE CLEANSES
-        <br />
         <input type="radio" name="other" value="other"/> OTHER
         <br />
         <p>COMMENT</p>
         <textarea name="comment" id="comment">Comments</textarea>
-        <input type="image" src="./images/submit-button.png" alt="submit button" width="80"/>
+        <br />
+        <input type="submit" name="submit" value="Submit" />
       </form>
     </main>
 

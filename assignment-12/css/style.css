@@ -1,5 +1,6 @@
 body {
   background-color: #FCF6C7;
+  text-align: center;
 }
 header {
   position: fixed;
@@ -9,13 +10,8 @@ header {
   text-align: center;
   font-size: 1em;
 }
-h1 {
-  font-family: 'Moon Flower', serif;
-  font-weight: bold;
-}
 #site-title {
   color: black;
-  font-family: 'Moon Flower', serif;
   font-weight: bold;
 }
 #site-slogan {
@@ -68,9 +64,17 @@ h1 {
 .drop-item:hover, .drop-item:hover a {
   background-color: #BAA8FF;
 }
+.photo {
+  position: fixed;
+  top: 60px;
+  left: 0px
+  width: 30%;
+  padding: 20px;
+}
 .container {
   background-color: white;
-  width: 1048px;
+  position: relative;
+  width: 60%;
   margin: auto;
   padding: 20px;
   border: 1px solid black;
