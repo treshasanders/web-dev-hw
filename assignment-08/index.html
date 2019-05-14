@@ -32,29 +32,39 @@
         padding: 8px;
       }
 
-    ul {
-      list-style-type: none;
-      margin: 0;
-      padding: 0;
-      overflow: hidden;
-      background-color: #333;
-    }
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+      }
 
-    li {
-      float: center;
-    }
+      li {
+        float: center;
+      }
 
-    li a {
-      display: block;
-      color: white;
-      text-align: center;
-      padding: 14px 16px;
-      text-decoration: none;
-    }
+      li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
 
-    li a:hover {
-      background-color: #111;
-    }
+      li a:hover {
+        background-color: #111;
+      }
+
+      .footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: ##2C4D18;
+        color: white;
+        text-align: center;
+      }
     </style>
 
     <!-- Title of the page -->
@@ -103,6 +113,7 @@
       <p>Measure out how much wax you would need to fill your container, then double it. That’s how much wax you will need to melt.</p>
       <img src="./images/tamping-espresso.jpg" alt="measuring cup of wax" title="measure wax" width="1024" height="548"></img>
     </div>
+    <br />
 
     <!-- Step 2 -->
     <div id="step2" class="container">
@@ -110,6 +121,7 @@
       <p>Pour the wax into your double boiler and allow to melt for 10 to 15 minutes, stirring frequently.</p>
       <img src="./images/step-02.jpg" alt="double boiler with melting wax" title="melt wax" width="1024" height="548"></img>
     </div>
+    <br />
 
     <!-- Step 3 -->
     <div id="step3" class="container">
@@ -117,6 +129,7 @@
       <p>When your candle wax is melted, it’s time to add fragrance oils. Follow the instructions on your wax package for how much to add. Simply pour it into your melted wax and stir for a few seconds. While this step is optional, we definitely recommend it for a lovely floral smell.</p>
       <img src="./images/step-03.jpg" alt="adding fragrance to double boiler with melted wax" title="add fragrance" width="1024" height="548"></img>
     </div>
+    <br />
 
     <!-- Step 4 -->
     <div id="step4" class="container">
@@ -124,6 +137,7 @@
       <p>The wick needs to be attached to the bottom of your container before you pour in the wax. You can attach the wick by dipping it in the melting wax then quickly sticking it to the bottom of the container. Let the wax sit five minutes to harden. Alternatively, you can superglue it.</p>
       <img src="./images/step-04.jpg" alt="double boiler with melted wax and container with wick being attached" title="attach wick" width="1024" height="548"></img>
     </div>
+    <br />
 
     <!-- Step 5 -->
     <div id="step5" class="container">
@@ -132,6 +146,7 @@
       <p>Then, slowly pour the wax into your container. Hold the wick in place, but don’t pull on it. Leave a small amount of wax in the boiler for topping off your candle later.</p>
       <img src="./images/step-05.jpg" alt="pouring wax into container" title="pour wax" width="1024" height="548"></img>
     </div>
+    <br />
 
     <!-- Step 6 -->
     <div id="step6" class="container">
@@ -140,6 +155,7 @@
       <p>Allow the wax to set for four hours at room temperature.</p>
       <img src="./images/step-06.jpg" alt="chopsticks supporting wick in melted wax" title="secure wick" width="1024" height="548"></img>
     </div>
+    <br />
 
     <!-- Step 7 -->
     <div id="step7" class="container">
@@ -147,6 +163,7 @@
       <p>If your candle hardened with an unsightly top (think cracks or holes) simply reheat and add your remaining wax. Let harden.</p>
       <img src="./images/step-07.jpg" alt="pouring more wax into container" title="pour more wax" width="1024" height="548"></img>
     </div>
+    <br />
 
     <!-- Step 8 -->
     <div id="step8" class="container">
@@ -154,35 +171,15 @@
       <p>Your candle wick should be less than half an inch long. If, when lit, the candle flickers or has a tall flame, trim the wick.</p>
       <img src="./images/step-08.jpg" alt="scissors cutting the wick" title="cut wick" width="1024" height="548"></img>
     </div>
-
-    <!-- Audio -->
-    <h2>Audio</h2>
-    <div id="audio" class="container">
-      <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/128874518&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
-    </div>
-
-    <!-- Video -->
-    <h2>Live Video</h2>
-    <div id="video" class="container">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/py3w5fttedA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
-
-    <!-- Copyright -->
-    <h2>Copyright</h2>
-    <div id="copyright" class="container">
-      <p>The author of this page does not own this material. It was used as material for a school project.</p>
-      <p><i>UM School of Media Arts</i></p>
-
-      <video poster="media/mart-logo-poster.jpg" width="400" height="400" preload="none" controls
-         <source src="media/mart-logo-animated.mp4" type='video/mp4; codecs="avc1.40401E, mp4a.40.2"'>
-         <source src="media/mart-logo-animated.webm" type='video/webm; codecs="vp8.0, vorbis"'>
-           <p>Sorry, you're unable to view this video.</p>
-      </video>
-    </div>
-
     <br /><br />
+
     <!-- Map -->
     <div class="mapouter"><div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=university%20of%20montana&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.embedgooglemap.net"></a></div>
+
+    <!-- Footer -->
+    <div class="footer">
+      <p>© 2019. Tresha's Candles. All Rights Reserved.</p>
+    </div>
 
   </body>
 
