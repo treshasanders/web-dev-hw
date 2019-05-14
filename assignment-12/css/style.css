@@ -69,14 +69,13 @@ header {
   position: fixed;
   top: 60;
   left: 0;
-  width: 30%;
-  padding: 20px;
+  width: 252px;
 }
 .container {
   background-color: white;
   position: relative;
   right: 0;
-  width: 60%;
+  width: 766px;
   margin: auto;
   padding: 20px;
   border: 1px solid black;
