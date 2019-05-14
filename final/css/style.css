@@ -59,6 +59,9 @@ li a {
 li a:hover {
   background-color: #111;
 }
+.imgcontainer {
+  position: relative;
+}
 
 .image {
   opacity: 1;
