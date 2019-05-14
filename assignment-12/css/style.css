@@ -75,7 +75,7 @@ h2 {
   bottom: 0;
   left: 0;
   width: 352px;
-  height: 386px;
+  height: 486px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -89,7 +89,7 @@ h2 {
 .container {
   background-color: white;
   display: block;
-  right: 20px;
+  left: 20px;
   width: 766px;
   margin: auto;
   padding: 20px;
