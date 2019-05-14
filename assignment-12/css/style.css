@@ -9,7 +9,9 @@ header {
   text-align: center;
   font-size: 1em;
 }
-
+h1 {
+  font-family: 'Moon Flower Bold', serif;
+}
 #site-title {
   color: black;
   font-family: 'Moon Flower Bold', serif;
