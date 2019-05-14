@@ -65,15 +65,16 @@ header {
   background-color: #BAA8FF;
 }
 .photo {
-  position: absolute;
-  top: 60px;
-  left: 0px
+  position: fixed;
+  top: 60;
+  left: 0;
   width: 30%;
   padding: 20px;
 }
 .container {
   background-color: white;
   position: relative;
+  right: 0;
   width: 60%;
   margin: auto;
   padding: 20px;
