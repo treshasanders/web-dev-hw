@@ -65,7 +65,7 @@ header {
   background-color: #BAA8FF;
 }
 .photo {
-  position: fixed;
+  position: absolute;
   top: 60px;
   left: 0px
   width: 30%;
