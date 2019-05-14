@@ -9,9 +9,10 @@ header {
   text-align: center;
   font-size: 1em;
 }
+
 #site-title {
   color: black;
-
+  font-family: 'Moon Flower Bold', serif;
 }
 #site-slogan {
   color: black;
@@ -69,6 +70,9 @@ header {
   margin: auto;
   padding: 20px;
   border: 1px solid black;
+}
+p {
+  font-family: 'Playfair Display Regular', serif;
 }
 .footer {
   position: fixed;
