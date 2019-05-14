@@ -96,12 +96,15 @@ h2 {
   padding: 20px;
   border: 1px solid black;
 }
+p {
+  font-family: 'Playfair Display Regular', serif;
+}
 .footer {
   position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: #8b2a4c;
+  background-color: #B3A42E;
   color: white;
   text-align: center;
 }
