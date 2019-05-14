@@ -1,24 +1,24 @@
 @font-face {
   font-family: 'Moon Flower Bold', serif;
-  src: url('./fonts/MoonFlower-Bold.ttf') format('truetype');
+  src: url('../fonts/MoonFlower-Bold.ttf') format('truetype');
   font-weight: bold;
   font-style: normal;
 }
 @font-face {
   font-family: 'Playfair Display Bold', serif;
-  src: url('./fonts/PlayfairDisplay-Bold.ttf') format('truetype');
+  src: url('../fonts/PlayfairDisplay-Bold.ttf') format('truetype');
   font-weight: bold;
   font-style: normal;
 }
 @font-face {
   font-family: 'Playfair Display Italic', serif;
-  src: url('./fonts/PlayfairDisplay-Italic.ttf') format('truetype');
+  src: url('../fonts/PlayfairDisplay-Italic.ttf') format('truetype');
   font-weight: italic;
   font-style: normal;
 }
 @font-face {
   font-family: 'Playfair Display Regular', serif;
-  src: url('./fonts/PlayfairDisplay-Regular.ttf') format('truetype');
+  src: url('../fonts/PlayfairDisplay-Regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
