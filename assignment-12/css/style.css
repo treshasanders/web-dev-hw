@@ -16,6 +16,10 @@ header {
 #site-slogan {
   color: black;
 }
+.navbox {
+  background-color: #2F1985;
+  width:100%;
+}
 .nav {
   display: inline-block;
   text-align: center;
