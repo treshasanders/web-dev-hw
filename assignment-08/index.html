@@ -32,12 +32,20 @@
         padding: 8px;
       }
 
+      .nav {
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+        color: white;
+        text-align: center;
+      }
       ul {
         list-style-type: none;
         margin: 0;
         padding: 0;
         overflow: hidden;
-        background-color: #333;
+        background-color: #ea6d4f;
       }
 
       li {
@@ -57,7 +65,7 @@
       }
 
       .footer {
-        position: relative;
+        position: fixed;
         left: 0;
         bottom: 0;
         width: 100%;
@@ -73,15 +81,15 @@
   </head>
 
   <body>
-    <!-- How to Make Candles -->
-    <h1>How to Make Candles in 8 Easy Steps</h1>
-
     <!-- Navigation -->
-    <ul>
-      <li><a href="./index.html">Home</a></li>
+    <ul class="nav">
+      <li><a class="active" href="./index.html">Home</a></li>
       <li><a href="./about.html">About</a></li>
       <li><a href="./contact.html">Contact</a></li>
     </ul>
+
+    <!-- How to Make Candles -->
+    <h1>How to Make Candles in 8 Easy Steps</h1>
 
     <!--Supply List -->
     <div class="container">
