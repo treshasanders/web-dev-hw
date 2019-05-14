@@ -10,11 +10,11 @@ header {
   font-size: 1em;
 }
 #site-title {
-  color: white;
+  color: black;
 
 }
 #site-slogan {
-  color: white;
+  color: black;
 }
 .nav {
   display: inline-block;
