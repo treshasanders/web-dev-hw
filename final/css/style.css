@@ -55,14 +55,41 @@ li a {
   padding: 14px 16px;
   text-decoration: none;
 }
-
 li a:hover {
   background-color: #111;
+}
+.drop {
+  display: block;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdown:hover .drop {
+  background-color: #3e8e41;
 }
 .imgcontainer {
   position: relative;
 }
-
 .image {
   opacity: 1;
   display: block;
@@ -71,7 +98,6 @@ li a:hover {
   transition: .5s ease;
   backface-visibility: hidden;
 }
-
 .middle {
   transition: .5s ease;
   opacity: 0;
@@ -82,15 +108,12 @@ li a:hover {
   -ms-transform: translate(-50%, -50%);
   text-align: center;
 }
-
 .imgcontainer:hover .image {
   opacity: 0.3;
 }
-
 .imgcontainer:hover .middle {
   opacity: 1;
 }
-
 .text {
   background-color: #4CAF50;
   color: white;
@@ -103,7 +126,7 @@ li a:hover {
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: #2C4D18;
+  background-color: #8b2a4c;
   color: white;
   text-align: center;
 }
