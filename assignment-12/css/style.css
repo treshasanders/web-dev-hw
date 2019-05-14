@@ -32,7 +32,6 @@ h2 {
   text-align: center;
   color: white;
   background-color: #2F1985;
-  padding: 1em;
 }
 .nav a {
   color: white;
@@ -75,7 +74,7 @@ h2 {
   bottom: 0;
   left: 0;
   width: 352px;
-  height: 586px;
+  height: 584px;
   display: flex;
   justify-content: center;
   align-items: center;
