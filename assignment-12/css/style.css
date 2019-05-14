@@ -71,9 +71,10 @@ h2 {
 }
 .photo {
   position: fixed;
-  top: 60;
+  bottom: 0;
   left: 0;
   width: 252px;
+  height: 786px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -86,8 +87,8 @@ h2 {
 }
 .container {
   background-color: white;
-  position: absolute;
-  right: 0;
+  position: static;
+  right: 20px;
   width: 766px;
   margin: auto;
   padding: 20px;
