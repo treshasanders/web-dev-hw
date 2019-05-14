@@ -1,29 +1,28 @@
 @font-face {
-  font-family: 'Moon Flower', serif;
-  src: url('../fonts/MoonFlower-Bold.ttf') format('opentype');
+  font-family: 'Moon Flower';
+  src: url('../fonts/MoonFlower-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Playfair Display';
+  src: url('../fonts/PlayfairDisplay-Bold.ttf') format('truetype');
   font-weight: bold;
   font-style: normal;
 }
 @font-face {
-  font-family: 'Playfair Display', serif;
-  src: url('../fonts/PlayfairDisplay-Bold.ttf') format('opentype');
-  font-weight: bold;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'Playfair Display', serif;
-  src: url('../fonts/PlayfairDisplay-Italic.ttf') format('opentype');
+  font-family: 'Playfair Display';
+  src: url('../fonts/PlayfairDisplay-Italic.ttf') format('truetype');
   font-weight: italic;
   font-style: normal;
 }
 @font-face {
-  font-family: 'Playfair Display', serif;
-  src: url('../fonts/PlayfairDisplay-Regular.ttf') format('opentype');
+  font-family: 'Playfair Display';
+  src: url('../fonts/PlayfairDisplay-Regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 
 h1 {
-  font-family: 'Moon Flower', serif;
-  font-weight: bold;
+  font-family: 'Moon Flower';
 }
