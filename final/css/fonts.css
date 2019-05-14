@@ -1,0 +1,20 @@
+@font-face {
+  font-family: 'Moderna';
+  src: url('../fonts/MODERNA_.TTF') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+h1 {
+  font-family: 'Moderna';
+}
+
+.nav {
+  font-family: 'Playfair Display';
+  font-weight: bold;
+  font-size: 16px;
+}
+
+p {
+  font-family: 'Playfair Display';
+}
