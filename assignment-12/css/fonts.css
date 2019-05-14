@@ -26,12 +26,14 @@
 h1 {
   font-family: 'Moon Flower';
   font-size: 120px;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 .nav {
   font-family: 'Playfair Display';
   font-weight: bold;
-  font-size: 20px;
+  font-size: 16px;
 }
 
 p {
