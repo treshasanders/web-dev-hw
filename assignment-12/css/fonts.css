@@ -1,11 +1,11 @@
 @font-face {
-  font-family: 'Moon Flower Bold', serif;
+  font-family: 'Moon Flower', serif;
   src: url('../fonts/MoonFlower-Bold.ttf') format('opentype');
   font-weight: bold;
   font-style: normal;
 }
 @font-face {
-  font-family: 'Playfair Display Bold', serif;
+  font-family: 'Playfair Display', serif;
   src: url('../fonts/PlayfairDisplay-Bold.ttf') format('opentype');
   font-weight: bold;
   font-style: normal;

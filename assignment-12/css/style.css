@@ -10,11 +10,13 @@ header {
   font-size: 1em;
 }
 h1 {
-  font-family: 'Moon Flower Bold', serif;
+  font-family: 'Moon Flower', serif;
+  font-weight: bold;
 }
 #site-title {
   color: black;
-  font-family: 'Moon Flower Bold', serif;
+  font-family: 'Moon Flower', serif;
+  font-weight: bold;
 }
 #site-slogan {
   color: black;
